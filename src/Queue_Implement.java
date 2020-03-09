@@ -32,4 +32,11 @@ public class Queue_Implement {
         return front == null;
     }
 
+    public void display() {
+        Node tmp = front;
+        while(tmp!=null){
+            System.out.println(tmp.data);
+            tmp = tmp.next;
+        }
+    }
 }
